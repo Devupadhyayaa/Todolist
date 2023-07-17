@@ -4,15 +4,25 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --gradient:linear-gradient(60deg,#010f4e,#05f94a,rgb(245, 116, 224));
+}
 .cont{
     margin: 0;
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(60deg,#010f4e,#05f94a);
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
 }
-.cont:hover{
-    background: linear-gradient(120deg,#05f94a,#010f4e);
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
 }
 .todo{
     width: 100%;
