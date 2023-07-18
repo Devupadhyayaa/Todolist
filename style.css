@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root{
-    --gradient:linear-gradient(60deg,#010f4e,#05f94a,rgb(245, 116, 224));
+    --gradient:linear-gradient(60deg,#b9c5fa,#05f94a,rgb(241, 145, 72));
 }
 .cont{
     margin: 0;
