@@ -13,7 +13,7 @@
     padding: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: var(--gradient);
+    background-image: #28282B;
     background-size: 400%;
     animation: bg-animation 5s infinite alternate;
 }
@@ -34,7 +34,7 @@
     border-radius: 30px;
 }
 .todo h2{
-    color:rgb(1, 14, 68);
+    color: black;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
